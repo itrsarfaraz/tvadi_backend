@@ -1,0 +1,8 @@
+1. To Setup Project - You have to run npm install for all modules.
+
+2. You Have to change the mongoDB credentials -> For now there was demo cluster used for database and it will be expire anytime.
+ To Chnage Details Go to > backend > mangoose.db.connect.js and replace the connection string from your connection.(Note - There must be a database named "oatvadmindb" in your MongoDB otherwise it will not find the connected database to your project and No need to make any kind of collection in it . It will automatically creates).
+
+3.You Have to Change the Send in blue details from .env file which was located at backend > .env.
+
+4.If you change the IP then you have to set api from - frontend > .env And admin > .env (Do not change the PORT).
